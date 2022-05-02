@@ -19,7 +19,7 @@ public class SwaggerConfiguration {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.barista.coffee.orderservice.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.barista.coffee.reportservice.controller"))
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(this.apiInfo())

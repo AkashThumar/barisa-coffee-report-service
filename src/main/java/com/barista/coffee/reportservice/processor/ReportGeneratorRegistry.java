@@ -10,7 +10,7 @@ public class ReportGeneratorRegistry {
 
 	private Map<ReportGeneratorEnum, ReportGenerator> reportGeneratorMap;
 	
-	private ReportGeneratorRegistry() {
+	public ReportGeneratorRegistry() {
 		this.reportGeneratorMap = new HashMap<>();
 	}
 	

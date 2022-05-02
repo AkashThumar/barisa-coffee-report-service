@@ -1,4 +1,4 @@
-package com.barista.coffee.orderservice.service.impl;
+package com.barista.coffee.reportservice.service.impl;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

@@ -1,4 +1,4 @@
-package com.barista.coffee.orderservice.controller;
+package com.barista.coffee.reportservice.controller;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
